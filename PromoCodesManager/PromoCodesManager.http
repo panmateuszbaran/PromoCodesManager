@@ -1,0 +1,11 @@
+@PromoCodesManager_HostAddress = http://localhost:5219
+
+GET {{PromoCodesManager_HostAddress}}/codes/
+Accept: application/json
+
+###
+
+GET {{PromoCodesManager_HostAddress}}/codes/1
+Accept: application/json
+
+###
